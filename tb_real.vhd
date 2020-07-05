@@ -6,7 +6,8 @@ use IEEE.NUMERIC_STD.ALL;
 LIBRARY std;
 USE std.textio.all;
 
-use work.txt_util.all;
+library utils;
+use utils.txt_util.all;
 
 entity tb_real is
 generic (

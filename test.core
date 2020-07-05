@@ -5,7 +5,7 @@ filesets:
     file_type: vhdlSource-2008
     files:
     - tb_real.vhd
-    - txt_util.vhd
+    - txt_util.vhd: {logical_name: utils }
 
 targets:
   default:
