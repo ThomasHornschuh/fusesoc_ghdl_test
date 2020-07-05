@@ -2,7 +2,7 @@ CAPI=2:
 name: ::test:0
 filesets:
   sim:
-    file_type: vhdlSource-2008
+    file_type: vhdlSource
     files:
     - tb_real.vhd
     - txt_util.vhd
