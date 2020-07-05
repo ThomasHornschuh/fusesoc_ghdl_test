@@ -1,0 +1,18 @@
+CAPI=2:
+name: ::test:0
+filesets:
+  sim:
+    file_type: vhdlSource-2008
+    files:
+    - tb_real.vhd
+    - txt_util.vhd
+
+targets:
+  default:
+    filesets:
+    - sim
+  sim:
+    default_tool: ghdl
+    filesets:
+    - sim
+    toplevel: tb_real
