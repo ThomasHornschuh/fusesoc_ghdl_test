@@ -2,10 +2,9 @@ CAPI=2:
 name: ::test:0
 filesets:
   sim:
-    file_type: vhdlSource-2008
     files:
-    - tb_real.vhd
-    - txt_util.vhd: {logical_name: utils }
+    - tb_real.vhd: {file_type: vhdlSource-93 }
+    - txt_util.vhd: {file_type: vhdlSource-2008, logical_name: utils }
 
 targets:
   default:
